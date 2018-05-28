@@ -1,0 +1,44 @@
+ <resources>
+
+    <color name="BLACK">#000000</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="light_grey">#a5acb0</color>
+    <color name="brown">#525964</color>
+    <color name="dark_grey">#212121</color>
+    <color name="aqua">#a6b1ba</color>
+    <color name="red_cherry">#C9282D</color>
+    <color name="silver">#A9A9A9</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#00aceb</color>
+    <color name="spiritclips_bck">#8AB8E0</color>
+    <color name="translucent_black">#55000000</color>
+    <color name="grid_bck">#627583</color>
+    <color name="dark_grey_bg">#1f1c17</color>
+    <color name="login_font_color_1">#546778</color>
+    <color name="login_font_color_2">#8E8E8E</color>
+    <color name="blue_txt">#0f5690</color>
+	<color name="my_spinner_text_color">#808080</color>
+	<color name="GRAY">#ff888888</color>
+	
+	<color name="toolbar_background_color">#112651</color>
+ 	<color name="primary_dark">#112651</color>
+ 	<color name="primary">#4A5F8B</color>
+ 	<color name="primary_transparent">#30112651</color>
+	<color name="primary_light">#C5CAE9</color>
+	<color name="accent">#009688</color>
+	<color name="primary_text">#212121</color>
+	<color name="secondary_text">#727272</color>
+	<color name="icons">#FFFFFF</color>
+	<color name="divider">#B6B6B6</color>
+	<color name="drawerBackgroundColor">#112651</color>
+	<color name="tableErrorRowBackground">#AAFFA07A</color>
+	<color name="tableRowFromPendingOrder">#AA33FF33</color>
+	<color name="reportRowAlternate1">#AA99ADC2</color>
+	<color name="reportRowAlternate2">#AABFCCD9</color>
+	<color name="report_main_column_alt1">#C0CBD6</color>
+	<color name="report_main_column_alt2">#A7B6C6</color>
+	
+	
+</resources>

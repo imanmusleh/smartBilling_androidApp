@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout12"
+    android:background="@drawable/app_background_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/black"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="100dp"
+        android:text="Smart Billing"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@android:drawable/editbox_background" >
+
+            <TableRow
+                android:id="@+id/tableRow_report_dates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Username"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editText_reg_user2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editText_reg_password2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button_reg_register2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/button_general_style"
+                    android:text="Sign Up"
+                    android:textColor="@color/WHITE" />
+
+                <Button
+                    android:id="@+id/button_cancel_reg2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/button_general_style"
+                    android:text="cancel"
+                    android:textColor="@color/WHITE" />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
